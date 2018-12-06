@@ -1,0 +1,5 @@
+py/*
+__pycache__
+mysite/hello/migrations/*
+!mysite/hello/migrations/__init__.py
+db.sqlite3

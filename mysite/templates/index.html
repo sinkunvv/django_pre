@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <title>Hello - Django</title>
+    </head>
+    <body>
+        <h1>アプリでハロー</h1>
+        {{ message }}
+        <form method="POST">
+            {% csrf_token %}
+            {{ form }}
+            <button type="submit">Login</button>
+        </form>
+    </body>
+</html>
